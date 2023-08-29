@@ -102,7 +102,7 @@ void CheckSavedModelBundle(const string& export_dir, const SavedModelBundle& bun
 		serialized_examples.push_back(serialized[i]);
 	}
 
-	/* Here tested my model. Compared results of before exported and here results. it must be same result with same inputs.*/
+	[/* Here tested my model. Compared results of before exported and here results. it must be same result with same inputs.*/](url)
 	std::vector<Tensor> outputs;
 	for (size_t i = 0; i < 129; i++)
 	{
